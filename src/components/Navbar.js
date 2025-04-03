@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
 export default function Navbar(props) {
@@ -31,9 +30,4 @@ export default function Navbar(props) {
             </div>
         </nav>
     )
-}   
-
-Navbar.propTypes = {
-    title: PropTypes.string.isRequired,
-    about: PropTypes.string         
 }
